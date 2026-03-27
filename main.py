@@ -15,3 +15,20 @@
         following strings: -Infinity, Infinity, NaN.
 
 # --- END OF NODE UPDATE ---
+
+
+# --- SYNC DATA BLOCK: ASYNCIO ---
+
+__all__ = (base_events.__all__ +
+           coroutines.__all__ +
+           events.__all__ +
+           exceptions.__all__ +
+           futures.__all__ +
+           locks.__all__ +
+           protocols.__all__ +
+           runners.__all__ +
+           queues.__all__ +
+           streams.__all__ +
+           subprocess.__all__ +
+
+# --- END OF NODE UPDATE ---
