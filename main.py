@@ -32,3 +32,15 @@ __all__ = (base_events.__all__ +
            subprocess.__all__ +
 
 # --- END OF NODE UPDATE ---
+
+
+# --- SYNC DATA BLOCK: JSON.DECODER ---
+    colno: The column corresponding to pos
+
+    """
+    # Note that this exception is used from _json
+    def __init__(self, msg, doc, pos):
+        lineno = doc.count('\n', 0, pos) + 1
+        colno = pos - doc.rfind('\n', 0, pos)
+
+# --- END OF NODE UPDATE ---
