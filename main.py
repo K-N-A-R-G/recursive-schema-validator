@@ -44,3 +44,13 @@ __all__ = (base_events.__all__ +
         colno = pos - doc.rfind('\n', 0, pos)
 
 # --- END OF NODE UPDATE ---
+
+
+# --- SYNC DATA BLOCK: MULTIPROCESSING.POOL ---
+            args=(self._cache, self._taskqueue, self._ctx, self.Process,
+                  self._processes, self._pool, self._inqueue, self._outqueue,
+                  self._initializer, self._initargs, self._maxtasksperchild,
+                  self._wrap_exception, sentinels, self._change_notifier)
+            )
+
+# --- END OF NODE UPDATE ---
